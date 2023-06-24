@@ -2,23 +2,208 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  color: #333333;
 }
 .container{
   background-color: #B7D5E5;
   width: 100%;
   height: 100vh;
-  align-content: center;
-  text-align: center;
+  display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
 }
 .usuarioContainer{
   max-width: 364px;
-  min-width: 300px;
+  min-width: 164px;
   max-height: 465px;
-  min-height: 300px;
-  
+  min-height: 165px;
   background-color: #D8ECF6;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.usuarioHeader{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.usuarioHeader p{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  padding: 0;
+  margin-top: 1rem;
+}
+.foto{
+  max-height:4.375rem;
+  max-width: 4.375rem;
+  width: 70%;
+  height: 70%;
+  border-radius: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.sectionUsuario{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
+}
+.painel{
+  width: 100%;
+  margin-top: 2.5rem;
+  padding-left: 1rem;
+}
+
+.painel p{
+  
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.minhasMalas{
+  display: flex;
+  margin-top: 1.4375rem;
+  padding-left: 1rem;
+}
+.minhasMalas .icon{
+  width: 40px;
+  height: 40px;
+  background-color: #70F46D;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  border-radius: 100%;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 1.4375rem;
+}
+
+.minhasMalas .icon img{
+  width: 30px;
+  height: 30px;
+}
+.minhasMalas p{
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  margin-right: 0.8125rem;
+  margin-left: 0.8125rem;
+  font-weight: 500;
+}
+
+.minhasMalas Button{
+  color: #fff;
+  font-size: 1rem;
+  background-color: #4275FA;
+  border-width: 0px;
+  width: 56px;
+  height: 20px;
+  margin-top: 0.5rem;
+  border-radius: 10px 10px 10px 10px;
+  letter-spacing: 0.8125rem;
+  padding-left: 0.625rem;
+}
+.minhaConta{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.minhaConta p{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.nome{
+  margin-top: 0.8125rem;
+  display: grid;
+  grid-template-columns: auto 2.5rem;
+  grid-template-rows: 0.9375rem;
+  max-width: 364px;
+  min-width: 164px;
+  width: 70%;
+  height: 70%;
+}
+.email{
+  margin-top: 0.8125rem;
+  display: grid;
+  grid-template-columns: auto 2.5rem;
+  grid-template-rows: 0.9375rem;
+  max-width: 364px;
+  min-width: 164px;
+  width: 70%;
+  height: 70%;
+}
+.senha{
+  margin-top: 0.8125rem;
+  display:grid;
+  grid-template-columns: auto 2.5rem;
+  grid-template-rows: 0.9375rem;
+  max-width: 364px;
+  min-width: 164px;
+  width: 70%;
+  height: 70%;
+}
+.minhaConta .itemUm{
+  font-weight: normal;
+  font-size: 0.875rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.minhaConta .itemDois{
+  font-weight: normal;
+  font-size: 0.8125rem;
+}
+
+.editar{
+  width: 3.125rem;
+  height: 1.875rem;
+  color: #fff;
+  font-size: 0.875rem;
+  border-style: none;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #4275FA;
+}
+
+.sair{
+  margin-top: 1.6875rem;
+  width: 18.75rem;
+  height: 2.125rem;
+  border-top: #000 solid 1px;
+  display: flex;
+  max-width: 364px;;
+  min-width: 164px;
+  width: 70%;
+}
+
+.sair button{
+  margin-top: 0.875rem;
+  color: #FF0B0B;
+  background-color: #00000000;
+  border: none;
+  font-size: 1rem;
+}
+
+.banner{
+  max-width: 447px;
+  min-width: 165px;
+  max-height: 485px;
+  min-height: 164px;
+  width: 70%;
+  height: 70%;
+  margin-left: 11.125rem;
+}
+
+.banner img{
+  max-width: 447px;
+  min-width: 165px;
+  max-height: 485px;
+  min-height: 164px;
   width: 100%;
   height: 100%;
 }
